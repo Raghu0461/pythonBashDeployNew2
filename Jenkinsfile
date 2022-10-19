@@ -19,7 +19,7 @@ pipeline{
         }
         stage('Bash Script'){
              steps {
-               ./bashprogram.sh
+                './bashprogram.sh'
              }
         }
     }
