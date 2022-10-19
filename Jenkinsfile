@@ -14,9 +14,7 @@ pipeline{
         }
         stage('Python Script'){
              steps {
-                 catchError {
                      sh 'program.py'
-                 }
              }
         }
         stage('Bash Script'){
