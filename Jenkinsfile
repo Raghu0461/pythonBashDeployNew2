@@ -14,12 +14,12 @@ pipeline{
         }
         stage('Python Script'){
              steps {
-                     sh 'program.py'
+                     bat 'program.py'
              }
         }
         stage('Bash Script'){
              steps {
-             sh 'bashprogram.sh'
+             bat 'bashprogram.sh'
              }
         }
     }
