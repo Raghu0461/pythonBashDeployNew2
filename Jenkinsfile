@@ -12,14 +12,14 @@ pipeline{
              echo "This Is Raghu Ram"
             }
         }
+        stage('Python Script'){
+             steps {
+             sh 'python3.6 program.py'
+             }
+        }
         stage('Bash Script'){
              steps {
              sh 'bashprogram.sh'
-             }
-        }
-        stage('Python Script'){
-             steps {
-             sh 'program.py'
              }
         }
     }
