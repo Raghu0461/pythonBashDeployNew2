@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 ANIMALS="man bear pig dog cat sheep"
 for ANIMAL in $ANIMALS
   do
